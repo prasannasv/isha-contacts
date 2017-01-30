@@ -1,0 +1,73 @@
+# Isha Contacts
+
+Person
+- Id (UUID)
+- First Name
+- Last Name
+- Email
+- Alternate Email
+- Cell Phone
+- Home Phone
+- Work Phone
+- Set<Tag> tags
+- last updated
+- created
+- city
+- isha center
+- state
+- country
+
+Tags
+- Indian
+- Medical
+- Entertainment
+- Spiritual
+- Volunteer
+
+ConnectionLog
+- Id (Contact)
+- Id (Volunteer)
+- on
+- Status
+- comments
+
+Status 
+ - Discovered
+ - Introduced
+ - Met Sadhguru
+ - Program Attended
+ 
+# View
+
+## Login
+Only Auth with Google button.
+Only emails that exist in our system will have access.
+Email will be associated with a city or would indicate them as a overall co-ordinator.
+Based on that, they will be redirected to the appropriate summary page.
+
+## City Co-ordinators view
+
+### Summary
+### Contacts
+### Volunteers
+
+
+## Overall Co-ordinators view
+
+### Summary
+### Contacts
+### Volunteers
+### Access Management
+
+
+## Dashboard (only people from PR team can see this)
+per city, number of Discovered connections, number of Introduced connections, number of Met Sadhguru and number of Program Attended connections
+
+## City view (city centers will be able to view only this)
+Tabs with each Status
+list the ConnectionLog
+First Name, Last Name, Volunteer Name, on (sorted from most recent to older), comments (ability to edit each item) (link to follow up)
+
+Add a new contact
+
+## 
